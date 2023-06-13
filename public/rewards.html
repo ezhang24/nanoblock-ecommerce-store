@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Emily Zhang
+    CS 132 Spring 2023
+    Date: June 1st, 2023
+    This is the rewards.html for my nanoblock/lego e-commerce store where
+    users can submit a form to sign up for the rewards/loyalty program to
+    hear news about special discounts and deals.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="utils.js"></script>
+    <script defer src="rewards.js"></script>
+    <title>Rewards</title>
+</head>
+<body>
+    <h1><a href="index.html">THE NANO SHOP</a></h1>
+    <nav>
+        <ul>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="rewards.html">REWARDS</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">CART</a></li>
+        </ul>
+    </nav>
+    <div id="rewards-welcome">
+        <p>Welcome to</p>
+        <h2>THE NANO ZONE</h2>
+        <h3>the nano shop rewards program</h3>
+    </div>
+    <div id="rewards-container">
+        <p>Not a member yet? Sign up now below!</p>
+        <form id="rewards-form">
+            <label for="rewards-name">NAME</label>
+            <input id="rewards-name" name="name" type="text" required>
+            <label for="rewards-email">EMAIL</label>
+            <input id="rewards-email" name="email" type="text" required>
+            <label for="rewards-number">PHONE NUMBER</label>
+            <input id="rewards-number" name="number" type="text" pattern="[0-9]+" required>
+            <button id="rewards-submit-btn">SIGN UP</button>
+        </form>
+    </div>
+</body>
+</html>

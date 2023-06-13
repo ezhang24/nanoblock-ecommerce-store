@@ -1,0 +1,24 @@
+{
+    "faq" : [
+        {
+            "question" : "How can I place an order?",
+            "answer" : "To place an order, simply browse our website and add the desired items to your cart. Proceed to the checkout page, enter your shipping and payment details, and confirm your order."
+        },
+        {
+            "question" : "What is your return policy?",
+            "answer" : "We have a hassle-free return policy. If you're not satisfied with your purchase, you can return the item within 30 days of receipt for a refund or exchange. Please review our detailed return policy on our website for more information."
+        },
+        {
+            "question" : "Can I track my order?",
+            "answer" : "Yes, once your order is shipped, we will provide you with a tracking number. You can use this tracking number to track the status of your package on our website or the shipping carrier's website."
+        },
+        {
+            "question" : "What if the item I received is damaged or defective?",
+            "answer" : "We apologize for any inconvenience caused. If you receive a damaged or defective item, please contact our customer support within 30 days of delivery. We'll arrange for a return and replacement/refund at no extra cost to you."
+        },
+        {
+            "question" : "Can I cancel or change my order after it has been placed?",
+            "answer" : "We aim to process and ship orders as quickly as possible. If you wish to cancel or make changes to your order, please contact us immediately. We'll do our best to accommodate your request, but please note that once the order is shipped, we may not be able to modify or cancel it."
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "products" : [
+        {
+            "name" : "Charmander",
+            "price" : 6.50,
+            "image" : "imgs/charmander.jpg",
+            "category" : "characters",
+            "description" : "A nanoblock set of Charmander from the Pokemon collection with approximately 110 pieces. This character stands roughly 1.6\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for all Pokemon lovers! If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Kirby",
+            "price" : 7.50,
+            "image" : "imgs/kirby.jpg",
+            "category" : "characters",
+            "description" : "A nanoblock set of Kirby from the Nintendo collection with approximately 220 pieces. This character stands roughly 2.75\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for all Nintendo lovers! If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Panda",
+            "price" : 9.75,
+            "image" : "imgs/panda.jpg",
+            "category" : "animals",
+            "description" : "A nanoblock set of a panda playing guitar consisting of 568 pieces for ages 6 and up. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for anyone who would love a desk decoration. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Bonsai",
+            "price" : 12.00,
+            "image" : "imgs/bonsai.jpg",
+            "category" : "misc",
+            "description" : "A nanoblock set of a beautiful bonsai from the plant collection with approximately 250 pieces. This plant stands roughly 6.2\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for anyone looking for a cute desk item. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Space Rocket",
+            "price" : 14.50,
+            "image" : "imgs/space.jpg",
+            "category" : "buildings",
+            "description" : "A nanoblock set of an amazing space center with approximately 510 pieces. This structure stands roughly 5.9\" tall and is one of our more difficult sets, being suitable for ages 15 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for space lovers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Piano",
+            "price" : 7.50,
+            "image" : "imgs/piano.jpg",
+            "category" : "misc",
+            "description" : "A nanoblock set of a grand piano from our instrument collection with approximately 190 pieces. This structure stands roughly 1.7\" tall and is one of our more difficult sets, being suitable for ages 15 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for people who love music. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Bird",
+            "price" : 6.50,
+            "image" : "imgs/bird.jpg",
+            "category" : "animals",
+            "description" : "A nanoblock set of a green opaline bird with approximately 100 pieces. This animal stands roughly 2.3\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for bird lovers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Shrine",
+            "price" : 14.50,
+            "image" : "imgs/shrine.jpg",
+            "category" : "buildings",
+            "description" : "A nanoblock set of the famous Inari Shrine with approximately 530 pieces. This structure stands roughly 2.1\" tall and is one of our more difficult sets, being suitable for ages 15 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for world travelers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Cathedral",
+            "price" : 18.50,
+            "image" : "imgs/cathedral.jpg",
+            "category" : "buildings",
+            "description" : "A nanoblock set of the famous Notre Dame Cathedral with approximately 1040 pieces. This structure stands roughly 3.6\" tall and is one of our most difficult sets, being suitable for ages 15 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for world explorers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Cat",
+            "price" : 8.00,
+            "image" : "imgs/cat.jpg",
+            "category" : "animals",
+            "description" : "A nanoblock set of a cat looking into a fishbowl with approximately 190 pieces. This animal stands roughly 2.1\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for cat lovers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Dog",
+            "price" : 9.00,
+            "image" : "imgs/dog.jpg",
+            "category" : "animals",
+            "description" : "A nanoblock set of a 2 chihuahuas with approximately 260 pieces. These dogs stand roughly 1.4\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for dog lovers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Crocodile",
+            "price" : 8.75,
+            "image" : "imgs/crocodile.jpg",
+            "category" : "animals",
+            "description" : "A nanoblock set of Nile the Crocodile with approximately 235 pieces. This animal stands roughly 1.6\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for swamp explorers. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Birthday Cake",
+            "price" : 7.75,
+            "image" : "imgs/cake.jpg",
+            "category" : "misc",
+            "description" : "A nanoblock set of a birthday cake with approximately 170 pieces. This animal stands roughly 2.4\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for anyone celebrating their birthday. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Pac-Man",
+            "price" : 7.00,
+            "image" : "imgs/pacman.jpg",
+            "category" : "characters",
+            "description" : "A nanoblock set of a pac-man and cherry with approximately 150 pieces. This animal stands roughly 1.5\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for anyone who loved playing pac-man during their childhood. If you have any questions, please feel free to contact us."
+        },
+        {
+            "name" : "Doraemon",
+            "price" : 6.75,
+            "image" : "imgs/doraemon.jpg",
+            "category" : "characters",
+            "description" : "A nanoblock set of the famous Doraemon character with approximately 140 pieces. This animal stands roughly 1.4\" tall and is suitable for ages 8 and over. Each block is made with high-quality environmentally friendly material and equipped with a step-by-step guide. This is a perfect gift for anyone who loved watching Doraemon during their childhood. If you have any questions, please feel free to contact us."
+        }
+    ]
+}

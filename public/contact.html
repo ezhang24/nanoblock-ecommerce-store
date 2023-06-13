@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Emily Zhang
+    CS 132 Spring 2023
+    Date: May 30th, 2023
+    This is the comtact.html for my nanoblock/lego e-commerce store where
+    users can submit a form for questions, comments, or concerns about
+    a product or the store policies.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="utils.js"></script>
+    <script defer src="contact.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <h1><a href="index.html">THE NANO SHOP</a></h1>
+    <nav>
+        <ul>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="rewards.html">REWARDS</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">CART</a></li>
+        </ul>
+    </nav>
+    <div id="contact-container">
+        <!-- Source: https://m.media-amazon.com/images/I/51bHgUqpElL._QL92_SH45_SS200_.jpg -->
+        <img src="imgs/contact-kirby.jpg" alt="Nanoblock Kirby holding a heart above his head">
+        <p>
+            Have a concern, comment, or question about an order or product or anything
+            else we could help with? Fill out the form below and we'll be sure to get
+            back to you as soon as possible!
+        </p>
+        <form id="contact-form">
+            <label for="name-input">NAME</label>
+            <input id="name-input" name="name" type="text" required>
+            <label for="email-input">EMAIL</label>
+            <input id="email-input" name="email" type="text" required>
+            <label for="question-input">QUESTION</label>
+            <textarea id="question-input" name="question" required></textarea>
+            <button id="contact-submit-btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

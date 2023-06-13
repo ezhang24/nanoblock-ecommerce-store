@@ -1,0 +1,344 @@
+/*
+    Name: Emily Zhang
+    CS 132 Spring 2023
+    Date: May 20th, 2023
+    This is the styles.css page for my nanoblock e-commerce store. The
+    theme promotes playful and bright tones and provides the layout of
+    the website.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+#home-banner, #banner-text, #products, .item, .bag-button, #rewards-banner,
+#contact-container, #contact-container > form, #rewards-welcome, #rewards-container,
+#rewards-container > form, #cart-container, #my-cart, .cart-item, #order-details,
+.cart-details, #order-details > div {
+    display: flex;
+}
+
+nav li, #product-filter li {
+    display: inline;
+}
+
+#banner-text, form, .item, #contact-container, #rewards-welcome, #rewards-container,
+#my-cart, #order-details {
+    flex-direction: column;
+}
+
+#banner-text, .bag-button, #rewards-banner, #contact-container,
+#rewards-welcome, #rewards-container, .cart-item, .cart-details,
+.item.product-view {
+    align-items: center;
+}
+
+.item > img, #contact-submit-btn, #rewards-submit-btn, #order-details > button {
+    align-self: center;
+}
+
+#banner-text, #products, .bag-button, #rewards-banner {
+    justify-content: center;
+}
+
+.cart-item, #order-details > div, .item {
+    justify-content: space-between;
+}
+
+h1, .bag-button, #order-details > button {
+    background-color: #FFB703;
+}
+
+#banner-text, #contact-submit-btn, #rewards-submit-btn {
+    background-color: #023047;
+}
+
+#banner-text, #banner-text h2, #banner-text a, #rewards-banner,
+#contact-submit-btn, #rewards-welcome h2, #rewards-submit-btn, #order-details > button {
+    color: white;
+}
+
+#order-details > h3, h2 {
+    color: #FB8500;
+}
+
+h2, nav, p, #banner-text a, #product-filter, .item h3, .bag-button,
+.quantity, .item label, #order-details > h3, #order-details > button {
+    font-family: Poppins, Verdana, sans-serif;
+}
+
+#banner-text h2, #rewards-banner h3, #rewards-welcome h2 {
+    font-family: Bungee, Verdana, sans-serif;
+}
+
+#banner-text p, #rewards-banner p, #contact-container, input, #contact-submit-btn,
+#rewards-welcome h3, #rewards-container > form, #rewards-submit-btn {
+    font-family: Space Mono, Verdana, sans-serif;
+}
+
+h1, h2, #banner-text h2 {
+    font-size: 40pt;
+}
+
+#banner-text a, #rewards-banner > p, #order-details > h3 {
+    font-size: 18pt;
+}
+
+#product-filter li, #rewards-welcome p, #rewards-container p, #order-details > button {
+    font-size: 14pt;
+}
+
+#rewards-banner > div > p, #order-details > button {
+    font-weight: bold;
+}
+
+h1, h2, nav, #banner-text, #product-filter, #rewards-banner > div,
+#contact-container > p, #order-details > h3 {
+    text-align: center;
+}
+
+#banner-text a, .item > img, .bag-button, #order-details > button, #animals,
+#buildings, #characters, #misc, .cart-item > img {
+    cursor: pointer;
+}
+
+h1, #banner-text h2, #rewards-welcome h2 {
+    margin: 0px;
+}
+
+.product-view > div, #rewards-banner > p, #contact-submit-btn, #rewards-submit-btn,
+.cart-details > img, .cart-details > div {
+    margin: 20px;
+}
+
+.product-view > img, .cart-item > img {
+    margin: 30px;
+}
+
+.cart-item, .item {
+    margin-top: -2px;
+}
+
+#order-details, #rewards-welcome h2, #contact-container > form {
+    width: 25%;
+}
+
+#home-banner img, #banner-text p, #banner-text, .product-view > div,
+#rewards-banner > div, #rewards-banner > p, #contact-container > p {
+    width: 50%;
+}
+
+#banner-text h2, .item > img, #faq, .item.product-view {
+    width: 70%;
+}
+
+#order-details > button, #contact-submit-btn, #rewards-submit-btn {
+    width: fit-content;
+}
+
+.bag-button, #order-details > button {
+    border-radius: 25px;
+    border: none;
+}
+
+h1 {
+    font-family: Monofett, Verdana, sans-serif;
+    padding: 10px 0px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 20px 60px;
+    font-size: 16pt;
+}
+
+#banner-text h2 {
+    line-height: 1.5;
+}
+
+#banner-text p {
+    font-size: 22pt;
+}
+
+#banner-text a {
+    background-color: transparent;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: solid white 3px;
+}
+
+#product-filter {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+#product-filter ul {
+    margin: 10px;
+}
+
+#product-filter li {
+    padding: 10px 60px;
+}
+
+#products {
+    flex-wrap: wrap;
+}
+
+.item {
+    align-items: flex-start;
+    width: 400px;
+    height: 550px;
+    margin-left: -2px;
+}
+
+.cart-item, #order-details, .item {
+    border: solid #BBBBBB 2px;
+}
+
+.item > img {
+    max-height: 60%;
+    margin-top: 50px;
+}
+
+.item h3, .item p, .bag-button {
+    margin: 5px 20px;
+}
+
+.item div {
+    margin-bottom: 20px;
+}
+
+.bag-button, #order-details > button {
+    padding: 10px 20px;
+}
+
+.bag-button img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.product-view {
+    flex-direction: row;
+}
+
+.product-view > img {
+    width: 40%;
+}
+
+.item label {
+    margin: 5px 0px 5px 20px;
+}
+
+.quantity {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+#rewards-banner, #rewards-banner h3 {
+    margin: 20px 0px;
+}
+
+#rewards-banner {
+    background-color: #219EBC;
+}
+
+#rewards-banner h3 {
+    font-size: 36pt;
+    height: 80px;
+}
+
+#rewards-banner > div {
+    margin-right: 30px;
+}
+
+#rewards-banner > div > p {
+    font-size: 20pt;
+    margin: 30px 0px;
+}
+
+#contact-container > form > textarea {
+    max-width: 100%;
+    height: 100px;
+}
+
+#contact-container > form > label, #rewards-container > form > label {
+    padding: 5px 0px;
+}
+
+#contact-submit-btn, #rewards-submit-btn {
+    padding: 5px 20px;
+    font-size: 12pt;
+}
+
+#rewards-welcome {
+    background-color: #8ECAE6;
+}
+
+#rewards-welcome h2 {
+    line-height: 1.25;
+}
+
+#rewards-welcome h3 {
+    color: #023047;
+}
+
+#rewards-container > form {
+    width: 18%;
+}
+
+#cart-container {
+    margin: 30px 110px;
+}
+
+#my-cart {
+    width: 64%;
+    margin: 0px 40px;
+}
+
+#order-details {
+    margin-top: 110px;
+}
+
+.cart-item > img {
+    width: 64px;
+    height: 64px;
+}
+
+.cart-details > img {
+    width: 130px;
+    height: 147px;
+}
+
+.cart-details > div > p {
+    line-height: 1.1;
+}
+
+#order-details > h3 {
+    margin: 10px 0px;
+}
+
+#order-details {
+    padding: 40px 30px;
+    height: fit-content;
+}
+
+#order-details > button {
+    margin: 15px 0px;
+}
+
+#faq {
+    margin: auto;
+}

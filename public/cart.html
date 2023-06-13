@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Emily Zhang
+    CS 132 Spring 2023
+    Date: June 1st, 2023
+    This is the cart.html for my nanoblock/lego e-commerce store where
+    users can view the items in their cart, add/remove items, and
+    checkout.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="utils.js"></script>
+    <script defer src="cart.js"></script>
+    <title>Cart</title>
+</head>
+<body>
+    <h1><a href="index.html">THE NANO SHOP</a></h1>
+    <nav>
+        <ul>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="rewards.html">REWARDS</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="cart.html">CART</a></li>
+        </ul>
+    </nav>
+    <div id="cart-container">
+        <div id="my-cart">
+            <h2>MY CART</h2>
+            <!--
+                Bin image
+                Source: Flaticon, Made by User: Freepik
+                ["https://www.flaticon.com/free-icons/trash"]
+            -->
+        </div>
+        <div id="order-details">
+            <h3>Order Summary</h3>
+            <div>
+                <p>Subtotal: </p>
+                <p id="total-price">$29.25</p>
+            </div>
+            <div>
+                <p>Shipping: </p>
+                <p>$4.50</p>
+            </div>
+            <button>CHECKOUT</button>
+        </div>
+    </div>
+
+</body>
+</html>
